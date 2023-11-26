@@ -30,6 +30,7 @@ import (
 
 import (
 	"github.com/apache/dubbo-go-samples/api"
+	_ "github.com/apache/dubbo-go-samples/filter/custom"
 )
 
 type GreeterProvider struct {

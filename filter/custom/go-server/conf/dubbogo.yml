@@ -10,7 +10,7 @@ dubbo:
   provider:
     services:
       GreeterProvider:
-        filter: myServerFilter
+        filter: myFilter
         loadbalance: random
         warmup: 100
         cluster: failover
